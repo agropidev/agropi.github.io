@@ -1,0 +1,223 @@
+/*  
+Template Name: WP Blueprint
+Theme URI: http://elisoes.net/
+Description: Nice and blue Theme for your next project.
+Version: 1.23
+Author: Alexis
+Author URI: http://eliseos.net
+Tags: blue, clean, one page
+*/
+body {
+background:#333 url(images/body.jpg) repeat scroll center top;
+color:#333;
+font-family:"myriad pro","trebuchet ms","helvetica neue",helvetica,arial,sans-serif;
+}
+
+a {
+outline:none;
+}
+
+::selection,::-moz-selection {
+background:#FFF;
+color:#333;
+}
+
+a:hover,a:active,a:focus,#post a {
+background:#fff;
+color:#333;
+text-decoration:none;
+}
+
+.container {
+background:transparent url(images/container.jpg) no-repeat scroll center top;
+height:710px;
+}
+
+#logo {
+background:transparent url(images/logo.png) no-repeat scroll 0 0;
+border:0;
+height:102px;
+margin-bottom:0;
+margin-top:1em;
+text-indent:-9999px;
+}
+
+#logo a {
+background:none;
+border:0;
+display:block;
+height:90px;
+text-decoration:none;
+}
+
+#countdown_wrapper {
+color:#fff;
+font-family:Impact, sans-serif;
+font-size:8em;
+margin-bottom:0.25em;
+}
+
+.countdown_text {
+background:transparent url(images/countdown.png) no-repeat scroll center 0;
+height:90px;
+margin-left:-5px;
+margin-top:-30px;
+text-indent:-9999px;
+}
+
+#post p {
+color:#fff;
+font-family:Helvetica, Arial, sans-serif;
+font-size:17px;
+font-style:normal;
+font-weight:400;
+letter-spacing:normal;
+line-height:1.25em;
+}
+
+#post a:hover {
+background:none;
+color:#fff;
+}
+
+#feedburner {
+margin-top:-30px;
+}
+
+#feedform {
+background:transparent url(images/mailbox.png) no-repeat scroll center 0;
+height:70px;
+margin-top:0;
+overflow:hidden;
+width:472px;
+}
+
+input.email_field,input.field {
+background:transparent none repeat scroll 0 0;
+border:0 none !important;
+color:#FFF;
+font-family:Georgia, serif;
+font-size:2.35em;
+height:40px;
+letter-spacing:-1px;
+width:315px;
+text-align:center;
+padding:0 0 0 40px;
+}
+
+input.feedb {
+background:transparent none repeat scroll 0 0;
+border:0 none;
+cursor:pointer;
+font-size:0;
+height:45px;
+line-height:0;
+overflow:hidden;
+text-indent:-9999px;
+width:80px;
+margin:2px 0 0;
+padding:15px 0 3px;
+}
+
+#copy {
+border:0 none;
+height:50px;
+margin-bottom:0;
+margin-top:1em;
+padding-left:0;
+padding-top:110px;
+text-indent:-9999px;
+width:15px;
+}
+
+#copy a {
+background:none;
+border:0;
+display:block;
+height:50px;
+text-decoration:none;
+width:15px;
+}
+
+.twit {
+margin:0 5px 0 0;
+}
+
+.twit p {
+margin:0;
+}
+
+.twit a,.twit_misc a {
+color:#8B8878;
+text-decoration:none;
+}
+
+#twit_container {
+margin:10px 0 0;
+}
+
+.twit_img img {
+float:left;
+padding:5px 5px 0;
+}
+
+.twit_misc {
+float:right;
+padding:0 10px 0 0;
+}
+
+.slide-panel {
+z-index:25;
+width:5px;
+position:absolute;
+max-width:300px;
+font-family:Georgia, serif;
+}
+
+.bottom {
+bottom:0;
+}
+
+.left {
+position:absolute;
+left:0;
+}
+
+.top {
+top:0;
+}
+
+.content {
+margin-left:100%;
+margin-right:auto;
+z-index:10;
+overflow:hidden;
+text-align:left;
+background:transparent url(images/box_body.png) repeat scroll center 0;
+height:0;
+width:100%;
+color:#fff;
+-moz-border-radius:0 0 10px;
+-webkit-border-radius:0 0 0 10px;
+}
+
+.slide-button {
+background:transparent url(images/box_button.png) no-repeat scroll 0 0;
+color:#FFF;
+font-size:1.4em;
+margin-left:100%;
+margin-right:auto;
+position:relative;
+width:150px;
+z-index:20;
+cursor:pointer;
+height:30px;
+padding-top:10px;
+text-align:center;
+-moz-border-radius:0 0 10px 10px;
+-webkit-border-radius:0 0 10px 10px;
+}
+
+.slide-button:hover {
+color:#9f9d8e;
+}
